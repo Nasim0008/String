@@ -2,7 +2,15 @@
 using namespace std;
 int main()
 {
-    string s="md nasim hossen";
+    string s="mdnasimhossen";
     s.clear();
-    cout<<s<<endl;
+    if(s.empty())
+    {
+        cout<< "Yes"<<endl;
+    }
+    else
+    {
+        cout<< "No"<<endl;
+    }
+
 }
